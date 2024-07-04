@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #AD88C6;
+    color: #000;
+    padding: 1rem 0;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#greet {
+    color: #fff;
+}
+
+#codsoft {
+    color: #6FDCE3;
+}
+
+#contact-me {
+    color: #DCA47C;
+    margin-top: 20px;
+}
+
+#list {
+    color: #fff;
+    margin-top: 12px;
+}
+
+#link {
+    color: #AD88C6;
+    text-decoration: none;
+}
+
+#intro {
+    text-decoration: underline;
+    margin-top: 10px;
+    color: #DCA47C;
+    margin-top: 35px;
+}
+
+.content {
+    width: 480px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.design {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    aspect-ratio: 1;
+    position: fixed;
+    border-radius: 50%;
+    top: 52%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.circle:nth-child(1) {
+    background: linear-gradient(90deg, transparent 50%);
+    width: 30rem;
+}
+
+.circle:nth-child(2) {
+    width: 25rem;
+    background-image: url("pallavik.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0.7rem solid #fff;
+    box-shadow: 0 0 1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #850F8D,
+        inset 0 0 2rem #850F8D,
+        0 0 3.5rem #850F8D,
+        inset 0 0 3.5rem #850F8D;
+
+}
+
+.btn-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#btn1 {
+    color: black;
+    text-decoration: none;
+}
+
+button:nth-child(1) {
+    background-color: #850F8D;
+}
+
+button:nth-child(2) {
+    background-color: #850F8D;
+    margin: 2rem;
+}
+
+.resume {
+    color: #DCA47C;
+    text-decoration: underline;
+}
+
+.btn-download {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #AD88C6;
+    font-size: 20px;
+}
+
+footer {
+    background: #7469B6;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    opacity: 75%;
+    font-weight: bold;
+    width: 100%;
+    bottom: 0;
+}
